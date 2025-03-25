@@ -20,9 +20,11 @@
 package Demo.Demo;
 
 public class SimpleService {
+	public static void main(String[] args) {
 	
-	public String  helloService(String msg){
-		return "Hello "+ msg;
+		System.out.println("hello");
+		System.out.println("done changes");
+		
+	}
 	}
 
-}
